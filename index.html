@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Développeur web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. SECTION ACCUEIL (HERO) -->
+    <section class="hero">
+        <div class="hero"> <div class="hero-contenu">
+                <h1>Je suis DONGMO| Développeur web</h1>
+                <p>Passionné par le web et le design.</p>
+                <a href="#projets" class="btn">Voir mes projets</a>
+            </div>
+            <div class="hero-image">
+                <img src="image/a1.jpg" alt="Illustration tech du développeur DONGMO">
+            </div
+        </div>
+    </section>
+
+    <!-- 2. SECTION À PROPOS -->
+    <section id="apropos">
+        <h2>À propos</h2>
+        <div class="conteneur-apropos">
+            <div class="bloc-texte-apropos">
+                <p>Je m'appelle <strong>DONGMO ASTRID WOUATEDEM</strong>, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant(e) en <strong>développement web</strong>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                <a href="assets/cv.pdf" class="btn" download>Télécharger mon CV</a>
+            </div>
+            <div class="bloc-photo-apropos">
+                <!-- Remplacez par votre photo de profil -->
+                <img src="image/images.jpg"alt="ima" class="photo-profil-ronde">
+            </div>
+        </div>
+    </section>
+
+<!-- 3. SECTION MES PROJETS -->
+<div id="projets">
+    <h2>Mes Projets</h2>
+    <div class="grille-projets">
+        
+        <!-- Carte Projet 1 -->
+        <div class="projet 1">
+            <p>Un site web interactif en html.</p>
+            <div class="hashtags-projet">#html, #css, #js</div>
+            <a href="#" class="btn-voir">Voir</a>
+        </div>
+
+        <!-- Carte Projet 2 -->
+        <div class="projet 2">
+            <p>La creation d'un site web de reservation des billet de CINEMA.</p>
+            <div class="hashtags-projet">#html, #css, #js</div>
+            <a href="#" class="btn-voir">Voir</a>
+        </div>
+
+        <!-- Carte Projet 3 -->
+        <div class="projet 3">
+            <p>La creation d'une interface graphique avec Python.</p>
+            <div class="hashtags-projet">#html, #css, #js</div>
+            <a href="#" class="btn-voir">Voir</a>
+        </div>
+
+    </div>
+</div>
+
+    <!-- 4. SECTION MES COMPÉTENCES -->
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+        <div class="conteneur-competences">
+            
+            <!-- Bloc Soft Skills -->
+            <div class="bloc-skills-categorie">
+                <h3>Soft Skills</h3>
+                
+                <div class="skill-item">
+                    <div class="skill-info"><span>Gestion de projet</span></div>
+                    <div class="barre-fond"><div class="barre-remplissage" style="width: 75%;"></div></div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info"><span>Résolution de problème</span></div>
+                    <div class="barre-fond"><div class="barre-remplissage" style="width: 85%;"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info"><span>Adaptabilité</span></div>
+                    <div class="barre-fond"><div class="barre-remplissage" style="width: 80%;"></div></div>
+                </div>
+            </div>
+
+            <!-- Bloc Hard Skills -->
+            <div class="bloc-skills-categorie">
+                <h3>Hard Skills</h3>
+                
+                <div class="skill-item">
+                    <div class="skill-info"><span>HTML / CSS</span></div>
+                    <div class="barre-fond"><div class="barre-remplissage" style="width: 90%;"></div></div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info"><span>JavaScript</span></div>
+                    <div class="barre-fond"><div class="barre-remplissage" style="width: 70%;"></div></div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info"><span>VS Code</span></div>
+                    <div class="barre-fond"><div class="barre-remplissage" style="width: 85%;"></div></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. SECTION CONTACT (FOOTER) -->
+    <footer class="footer-contact">
+        <h2>Vous avez un <span>projet en tête ?</span></h2>
+        <h2>N'hésitez pas à me contacter</h2>
+        <p>Remplissez le formulaire ci-dessous pour m'envoyer un message.</p>
+        
+        <form class="formulaire-contact" action="#" method="POST">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre adresse email" required>
+            <textarea name="message" rows="4" placeholder="Votre message..." required></textarea>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </footer>
+
+</body>
+</html>
